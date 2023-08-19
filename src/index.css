@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.map {
+  overflow: auto;
+  
+  @apply lg:w-[900px] w-screen lg:h-[500px] h-screen
+}
+
+body{
+  background-color: #202124;
+}
